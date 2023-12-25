@@ -13,24 +13,27 @@ file_name = "record"
 def filterWAV(data, N, dt):
     new_model = Model()
 
-    f0 = 260 + 40
-    f1 = 506
-    f2 = 1262
-    f3 = 2354
+    # Для первого слога
+    # f0 = 260 + 40
+    # f1 = 506
+    # f2 = 1262
+    # f3 = 2354
+    # f4 = 3600 - 100
+
+    # Для второго слога
+    f0 = 230 + 40
+    f1 = 564
+    f2 = 1224
+    f3 = 2450
     f4 = 3600 - 100
+
     m = 128
     M = 2 * m + 1
-    print('point 1')
     low_pass_filter = Proccessing.lpf_reverse(Proccessing.lpf(f0, m, dt)) # Основной тон
-    print('point 2')
-    band_pass_filter_F1 = Proccessing.bpf(f0, f2, m, dt) # первая форманта
-    print('point 3')
-    band_pass_filter_F2 = Proccessing.bpf(f1, f3, m, dt) # вторая форманта
-    print('point 4')
-    band_pass_filter_F3 = Proccessing.bpf(f2, f4, m, dt) # третья форманта
-    print('point 5')
+    band_pass_filter_F1 = Proccessing.bpf(f1 - 50, f1 + 50, m, dt) # первая форманта
+    band_pass_filter_F2 = Proccessing.bpf(f2 - 50, f2 + 50, m, dt) # вторая форманта
+    band_pass_filter_F3 = Proccessing.bpf(f3 - 50, f3 + 50, m, dt) # третья форманта
     high_pass_filter_F4 = Proccessing.hpf(f4, m, dt) # четвертая форманта
-    print('point 6')
 
     patch = new_model.convolModel(data, low_pass_filter, N, M)
     print('point 7')
@@ -74,13 +77,13 @@ def main():
     data, nchannels, sampwidth, framerate, nframes = IN_OUT.readWAV("./records/" + file_name + ".wav")
 
     div = 18000
-    data = data[0:div]          # первый слог
-    # data = data[div:nframes]  # второй слог
+    # data = data[0:div]      # первый слог
+    data = data[div:nframes]  # второй слог
 
     sr = 22050
     ts = 1.0 / sr
-    t = np.arange(0, div/framerate, ts)                 # первый слог
-    # t = np.arange(0, (nframes-div)/framerate, ts)     # второй слог
+    # t = np.arange(0, div/framerate, ts)                 # первый слог
+    t = np.arange(0, (nframes-div)/framerate, ts)     # второй слог
     X = fft(data)
     N = len(X)
     n = np.arange(N)

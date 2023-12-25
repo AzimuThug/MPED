@@ -5,33 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f234230-b976-4149-9b67-341751fb6437" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/09_antiShift.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/0x_RawDataProccess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/10_antiTrend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/11_convolModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/12_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/13_datFilter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/14_Emphasis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/15_Formant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/pgp_dt0005.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/records/file.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/records/formant1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/records/formant2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/records/formant3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/records/formant4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/records/patch.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/records/record.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/records/record_based.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/records/record_out.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/in_out.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course_work/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/07_Fourier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/07_Fourier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/08_addModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/08_addModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/0x_Estimation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/proccessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/proccessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/15_Formant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/15_Formant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant2.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant3.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant4.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant4.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/patch.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/patch.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,25 +175,25 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1033" y="503" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703375840678" />
-    <state width="2539" height="284" key="GridCell.Tab.0.bottom" timestamp="1703467297407">
+    <state width="2539" height="284" key="GridCell.Tab.0.bottom" timestamp="1703469077849">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703467297407" />
+    <state width="2539" height="284" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703469077849" />
     <state width="2027" height="222" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
-    <state width="2539" height="284" key="GridCell.Tab.0.center" timestamp="1703467297407">
+    <state width="2539" height="284" key="GridCell.Tab.0.center" timestamp="1703469077848">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703467297407" />
+    <state width="2539" height="284" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703469077848" />
     <state width="2027" height="222" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
-    <state width="2539" height="284" key="GridCell.Tab.0.left" timestamp="1703467297406">
+    <state width="2539" height="284" key="GridCell.Tab.0.left" timestamp="1703469077848">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703467297406" />
+    <state width="2539" height="284" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703469077848" />
     <state width="2027" height="222" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
-    <state width="2539" height="284" key="GridCell.Tab.0.right" timestamp="1703467297407">
+    <state width="2539" height="284" key="GridCell.Tab.0.right" timestamp="1703469077849">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703467297407" />
+    <state width="2539" height="284" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703469077849" />
     <state width="2027" height="222" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
   </component>
 </project>
