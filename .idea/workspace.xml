@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f234230-b976-4149-9b67-341751fb6437" name="Default Changelist" comment="" />
+    <list default="true" id="6f234230-b976-4149-9b67-341751fb6437" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/09_antiShift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/0x_RawDataProccess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/10_antiTrend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/11_convolModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/12_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/13_datFilter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/14_Emphasis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/15_Formant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/pgp_dt0005.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/records/file.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/records/formant1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/records/formant2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/records/formant3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/records/formant4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/records/patch.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/records/record.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/records/record_based.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/records/record_out.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/in_out.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course_work/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/07_Fourier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/07_Fourier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/08_addModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/08_addModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/0x_Estimation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/proccessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/proccessing.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +45,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2VXinGffK2sRNV2qAvm6KFWunKQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -25,8 +59,8 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.0x_Estimation">
-    <configuration name="05_Harm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.15_Formant">
+    <configuration name="13_datFilter (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -38,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/05_Harm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/13_datFilter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -47,7 +81,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="06_Hist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13_datFilter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTestTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Максим\PycharmProjects\TestTestTest\Data_Labs\13_datFilter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="14_Emphasis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/06_Hist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/14_Emphasis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07_Fourier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15_Formant" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/07_Fourier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/15_Formant.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,28 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="0x_Estimation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestTestTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/0x_Estimation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="in_out" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,7 +156,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes/analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes/in_out.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,14 +167,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.0x_Estimation" />
-        <item itemvalue="Python.analysis" />
-        <item itemvalue="Python.06_Hist" />
-        <item itemvalue="Python.07_Fourier" />
-        <item itemvalue="Python.05_Harm" />
+        <item itemvalue="Python.15_Formant" />
+        <item itemvalue="Python.14_Emphasis" />
+        <item itemvalue="Python.13_datFilter (1)" />
+        <item itemvalue="Python.13_datFilter" />
+        <item itemvalue="Python.in_out" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -155,78 +190,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="999" y="326" key="#04_Statistics" timestamp="1696300992628">
+    <state x="1033" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1703375840678">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="999" y="326" key="#04_Statistics/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1696300992628" />
-    <state x="1042" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1696281508115">
+    <state x="1033" y="503" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703375840678" />
+    <state width="2539" height="284" key="GridCell.Tab.0.bottom" timestamp="1703467297407">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1042" y="503" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1696281508115" />
-    <state x="999" y="326" key="#lab4" timestamp="1696300900877">
+    <state width="2539" height="284" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703467297407" />
+    <state width="2027" height="222" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
+    <state width="2539" height="284" key="GridCell.Tab.0.center" timestamp="1703467297407">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="999" y="326" key="#lab4/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1696300900877" />
-    <state width="2539" height="223" key="GridCell.Tab.0.bottom" timestamp="1698714793589">
+    <state width="2539" height="284" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703467297407" />
+    <state width="2027" height="222" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
+    <state width="2539" height="284" key="GridCell.Tab.0.left" timestamp="1703467297406">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2027" height="224" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1695686020623" />
-    <state width="2539" height="223" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1698714793589" />
-    <state width="2027" height="223" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1698612906610" />
-    <state width="2539" height="223" key="GridCell.Tab.0.center" timestamp="1698714793589">
+    <state width="2539" height="284" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703467297406" />
+    <state width="2027" height="222" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
+    <state width="2539" height="284" key="GridCell.Tab.0.right" timestamp="1703467297407">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2027" height="224" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1695686020622" />
-    <state width="2539" height="223" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1698714793589" />
-    <state width="2027" height="223" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1698612906610" />
-    <state width="2539" height="223" key="GridCell.Tab.0.left" timestamp="1698714793589">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2027" height="224" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1695686020622" />
-    <state width="2539" height="223" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1698714793589" />
-    <state width="2027" height="223" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1698612906609" />
-    <state width="2539" height="223" key="GridCell.Tab.0.right" timestamp="1698714793589">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2027" height="224" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1695686020622" />
-    <state width="2539" height="223" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1698714793589" />
-    <state width="2027" height="223" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1698612906610" />
-    <state width="2539" height="490" key="GridCell.Tab.1.bottom" timestamp="1698114531097">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2027" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1695519994207" />
-    <state width="2539" height="490" key="GridCell.Tab.1.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1698114531097" />
-    <state width="2539" height="490" key="GridCell.Tab.1.center" timestamp="1698114531097">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2027" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1695519994207" />
-    <state width="2539" height="490" key="GridCell.Tab.1.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1698114531097" />
-    <state width="2539" height="490" key="GridCell.Tab.1.left" timestamp="1698114531097">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2027" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1695519994207" />
-    <state width="2539" height="490" key="GridCell.Tab.1.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1698114531097" />
-    <state width="2539" height="490" key="GridCell.Tab.1.right" timestamp="1698114531097">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2027" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1695519994207" />
-    <state width="2539" height="490" key="GridCell.Tab.1.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1698114531097" />
-    <state x="666" y="251" key="SettingsEditor" timestamp="1698619738717">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="533" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1695769102819" />
-    <state x="666" y="251" key="SettingsEditor/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1698619738717" />
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1696300841631">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1696300841631" />
-    <state x="597" y="292" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1695513547521">
-      <screen x="0" y="0" width="2048" height="1112" />
-    </state>
-    <state x="597" y="292" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2048.1112@0.0.2048.1112" timestamp="1695513547521" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1696281521219">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1696281521219" />
+    <state width="2539" height="284" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703467297407" />
+    <state width="2027" height="222" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
   </component>
 </project>

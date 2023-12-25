@@ -24,7 +24,7 @@ def main():
     multSignal_2 = new_model.multModel(exp_trend, noise, N)
 
     fig, ax = plt.subplots(nrows=2, ncols=2)
-    fig.suptitle("Задание 9.2", fontsize=15)
+    fig.suptitle("Задание 8", fontsize=15)
     ax[0, 0].plot(addSignal_1)
     ax[1, 0].plot(multSignal_1)
     ax[0, 1].plot(addSignal_2)

@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 from classes.model import Model
 from classes.analysis import Analysis
@@ -11,7 +12,7 @@ def main():
     new_model = Model()
     new_analysis = Analysis()
 
-    N = 10 ** 3
+    N = 128
     A0 = 100
     f0 = 33
     A1 = 15
@@ -19,13 +20,16 @@ def main():
     A2 = 20
     f2 = 170
     del_t = 0.001
-    dt = 0.002
+    dt = 0.1
 
     harm = new_model.harm(N, A0, f0, del_t)
     # harm = new_model.shift(harm, 100, 0, 200)
     harm = new_model.windowing(harm, N, 100)
-    polyharm = new_model.polyHarm(N, A0, f0, A1, f1, A2, f2, del_t)
-    polyharm = new_model.windowing(polyharm, N, 200)
+    # polyharm = new_model.polyHarm(N, A0, f0, A1, f1, A2, f2, del_t)
+    # polyharm = new_model.windowing(polyharm, N, 200)
+    # with open("./pgp_dt0005.dat", 'rb') as file:
+    #     polyharm = np.fromfile(file, dtype=np.float32)
+    polyharm = new_model.data_10_tab2()
     harm_furier = new_analysis.Fourier(harm, N)
     polyharm_furier = new_analysis.Fourier(polyharm, N)
     new_X_n = new_analysis.spectrFourier([i for i in range(N)], N, dt)
@@ -40,8 +44,8 @@ def main():
     ax[1, 1].set_xlim([0, 1 / (dt * 2)])
     ax[0, 0].set_title("harm")
     ax[1, 0].set_title("harm spectre")
-    ax[0, 1].set_title("polyharm")
-    ax[1, 1].set_title("polyharm spectre")
+    # ax[0, 1].set_title("polyharm")
+    # ax[1, 1].set_title("polyharm spectre")
     plt.show()
 
 main()
