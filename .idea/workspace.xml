@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f234230-b976-4149-9b67-341751fb6437" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/TestTestTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestTestTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/07_Fourier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/07_Fourier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/0x_RawDataProccess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/0x_RawDataProccess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/10_antiTrend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/10_antiTrend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/13_datFilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/13_datFilter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Labs/15_Formant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/15_Formant.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant1.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant2.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant3.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant4.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant4.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Labs/records/patch.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/patch.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/proccessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/proccessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_work/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/course_work/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +43,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.15_Formant">
-    <configuration name="13_datFilter (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="07_Fourier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,7 +58,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/13_datFilter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/07_Fourier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -62,7 +67,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13_datFilter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="09_antiShift" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTestTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/09_antiShift.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="0x_RawDataProccess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTestTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/0x_RawDataProccess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10_antiTrend" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Максим\PycharmProjects\TestTestTest\Data_Labs\13_datFilter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/10_antiTrend.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14_Emphasis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,53 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course_work" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/14_Emphasis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="15_Formant" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestTestTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/15_Formant.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="in_out" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestTestTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes/in_out.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course_work/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.15_Formant" />
-        <item itemvalue="Python.14_Emphasis" />
-        <item itemvalue="Python.13_datFilter (1)" />
-        <item itemvalue="Python.13_datFilter" />
-        <item itemvalue="Python.in_out" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.07_Fourier" />
+        <item itemvalue="Python.0x_RawDataProccess" />
+        <item itemvalue="Python.10_antiTrend" />
+        <item itemvalue="Python.09_antiShift" />
       </list>
     </recent_temporary>
   </component>
@@ -171,29 +176,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1033" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1703375840678">
+    <state width="2539" height="284" key="GridCell.Tab.0.bottom" timestamp="1705901644016">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1033" y="503" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703375840678" />
-    <state width="2539" height="284" key="GridCell.Tab.0.bottom" timestamp="1703469077849">
+    <state width="2539" height="284" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644016" />
+    <state width="2539" height="284" key="GridCell.Tab.0.center" timestamp="1705901644015">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703469077849" />
-    <state width="2027" height="222" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
-    <state width="2539" height="284" key="GridCell.Tab.0.center" timestamp="1703469077848">
+    <state width="2539" height="284" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644015" />
+    <state width="2539" height="284" key="GridCell.Tab.0.left" timestamp="1705901644015">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703469077848" />
-    <state width="2027" height="222" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
-    <state width="2539" height="284" key="GridCell.Tab.0.left" timestamp="1703469077848">
+    <state width="2539" height="284" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644015" />
+    <state width="2539" height="284" key="GridCell.Tab.0.right" timestamp="1705901644015">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703469077848" />
-    <state width="2027" height="222" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
-    <state width="2539" height="284" key="GridCell.Tab.0.right" timestamp="1703469077849">
+    <state width="2539" height="284" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644015" />
+    <state width="2539" height="489" key="GridCell.Tab.1.bottom" timestamp="1705901644010">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1703469077849" />
-    <state width="2027" height="222" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@2560.0.2048.1120" timestamp="1702678555758" />
+    <state width="2539" height="489" key="GridCell.Tab.1.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644010" />
+    <state width="2539" height="489" key="GridCell.Tab.1.center" timestamp="1705901644010">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="489" key="GridCell.Tab.1.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644010" />
+    <state width="2539" height="489" key="GridCell.Tab.1.left" timestamp="1705901644010">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="489" key="GridCell.Tab.1.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644010" />
+    <state width="2539" height="489" key="GridCell.Tab.1.right" timestamp="1705901644010">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="489" key="GridCell.Tab.1.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644010" />
+    <state x="781" y="342" key="SettingsEditor" timestamp="1705881136545">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="342" key="SettingsEditor/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705881136544" />
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1705900643958">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705900643958" />
   </component>
 </project>

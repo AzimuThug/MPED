@@ -46,7 +46,7 @@ def filterWAV(data, N, dt):
     formant_4 = new_model.convolModel(data, high_pass_filter_F4, N, M)
 
     fig, ax = plt.subplots(nrows=6, ncols=1)
-    fig.suptitle("Задание 13", fontsize=15)
+    fig.suptitle("Задание 15", fontsize=15)
     ax[0].plot(data)
     ax[1].plot(patch)
     ax[2].plot(formant_1)
@@ -77,13 +77,13 @@ def main():
     data, nchannels, sampwidth, framerate, nframes = IN_OUT.readWAV("./records/" + file_name + ".wav")
 
     div = 18000
-    # data = data[0:div]      # первый слог
-    data = data[div:nframes]  # второй слог
+    data = data[0:div]      # первый слог
+    # data = data[div:nframes]  # второй слог
 
     sr = 22050
     ts = 1.0 / sr
-    # t = np.arange(0, div/framerate, ts)                 # первый слог
-    t = np.arange(0, (nframes-div)/framerate, ts)     # второй слог
+    t = np.arange(0, div/framerate, ts)                 # первый слог
+    # t = np.arange(0, (nframes-div)/framerate, ts)     # второй слог
     X = fft(data)
     N = len(X)
     n = np.arange(N)

@@ -11,8 +11,8 @@ def main():
     new_model = Model()
 
     N = 10 ** 3 # число точек
-    A0 = 10    # амплитуда первой частоты
-    f0 = 2     # первая частота
+    A0 = 5    # амплитуда первой частоты
+    f0 = 1     # первая частота
     A1 = 25     # амплитуда второй частоты
     f1 = 130    # вторая частоота
     A2 = 30     # амплитуда второй частоты
@@ -21,13 +21,13 @@ def main():
 
     linear = new_model.trend_linear(N, 3, 0)
     harm = new_model.harm(N, A0, f0, dt)
-    non_linear = new_model.exp(N, 0.006, 2)
+    non_linear = new_model.exp(N, 0.006, 1)
     polyharm = new_model.polyHarm(N, A0, f0, A1, f1, A2, f2, dt)
-    noise = new_model.noise(N, 10)
+    noise = new_model.noise(N, 1)
 
-    addSignal_1 = new_model.addModel(noise, harm, N)
-    addSignal_3 = Proccessing.antiNoise(addSignal_1, N, 20)
-
+    addSignal_1 = new_model.addModel(non_linear, harm, N)
+    addSignal_3 = Proccessing.antiTrendNonLinear(addSignal_1, N, 200)
+    # addSignal_3 = Proccessing.antiNoise(addSignal_1, N, 100)
 
     # harm_source = Proccessing.antiShift(harm)
     # noise_source = Proccessing.antiShift(noise)

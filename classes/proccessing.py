@@ -24,6 +24,7 @@ class Proccessing:
         out_data = []
         for i in range(N - 1):
             out_data.append(data[i + 1] - data[i])
+        out_data.append(out_data[N - 2])
         return out_data
 
     @staticmethod
@@ -35,10 +36,11 @@ class Proccessing:
                 x_n += data[i + k]
             x_n = x_n / W
             out_data.append(x_n)
+        # out_data.append(out_data[N - W - 2])
         return out_data
 
     @staticmethod
-    def antiNoise(data1, data2, N, M):
+    def antiNoise(data, N, M):
         out_data = []
         for i in range(N):
             avg = 0
@@ -47,6 +49,25 @@ class Proccessing:
             avg = avg / M
             out_data.append(avg)
         return out_data
+
+    # @staticmethod
+    # def arith_mean(f, buffer_size=10):
+    #     buffer = [f] * buffer_size
+    #
+    #     # Move buffer to actually values ( [0, 1, 2, 3] -> [1, 2, 3, 4] )
+    #     buffer = buffer[1:]
+    #     buffer.append(f)
+    #
+    #     # Calculation arithmetic mean
+    #     mean = 0
+    #     for e in buffer: mean += e
+    #     mean /= len(buffer)
+    #
+    #     return mean
+
+    # @staticmethod
+    # def antiNoise(data, N, M):
+    #     return [np.mean(data[m][i] for m in range(M)) for i in range(N)]
 
     @staticmethod
     def lpf(fc, m, dt):

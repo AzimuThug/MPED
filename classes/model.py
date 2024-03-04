@@ -15,7 +15,7 @@ class Model:
         return x
 
     def noise(self, N, R):
-        noise = np.random.randint(R+10, size=(N)) - 10
+        noise = np.random.randint(R+1, size=(N))
         return noise
 
     @staticmethod

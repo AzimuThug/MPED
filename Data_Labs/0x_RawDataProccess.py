@@ -19,7 +19,7 @@ def main():
     dt = 0.1
     N = 256
 
-    polyharm = new_model.data_5_tab1()
+    polyharm = new_model.data_2_tab1()
 
     low_pass_filter = Proccessing.lpf_reverse(Proccessing.lpf(fc, m, dt))
     high_pass_filter = Proccessing.hpf(fc, m, dt)
@@ -39,6 +39,7 @@ def main():
     new_X_n = new_analysis.spectrFourier([i for i in range(M)], M, dt / 2)
     new_X_1 = new_analysis.spectrFourier([i for i in range(N)], N, dt)
 
+    polyharm_furier_before = new_analysis.Fourier(polyharm, N)
     polyharm_furier = new_analysis.Fourier(signal_2, N)
 
     fig, ax = plt.subplots(nrows=5, ncols=2)
@@ -48,11 +49,11 @@ def main():
     ax[2, 0].plot(signal_2)
     ax[3, 0].plot(signal_3)
     ax[4, 0].plot(signal_4)
-    ax[0, 1].plot(new_X_1, polyharm_furier)
+    ax[0, 1].plot(new_X_1, polyharm_furier_before)
     ax[1, 1].plot(new_X_n, lpf_fr)
     ax[2, 1].plot(new_X_n, bpf_fr)
     ax[3, 1].plot(new_X_n, hpf_fr)
-    ax[4, 1].plot(new_X_n, bsf_fr)
+    ax[4, 1].plot(new_X_1, polyharm_furier)
     ax[0, 1].set_xlim([0, 1 / (dt * 2)])
     ax[1, 1].set_xlim([0, 1 / (dt * 2)])
     ax[2, 1].set_xlim([0, 1 / (dt * 2)])
@@ -67,7 +68,7 @@ def main():
     ax[1, 1].set_title("АЧХ ФНЧ")
     ax[2, 1].set_title("АЧХ ПФ")
     ax[3, 1].set_title("АЧХ ФВЧ")
-    ax[4, 1].set_title("АЧХ РФ")
+    ax[4, 1].set_title("Спектр отфильтрованного сигнала")
 
     plt.show()
 

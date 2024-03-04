@@ -91,5 +91,5 @@ def WAVfile():
 
     IN_OUT.writeWAV("file_out.wav", array, nchannels, sampwidth, framerate, nframes)
 
-# main()
-WAVfile()
+main()
+# WAVfile()
