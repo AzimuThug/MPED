@@ -1,5 +1,15 @@
 import numpy as np
 import math
+import cv2
+
+interpolation = {
+    # Nearest-neighbor interpolation
+    1: cv2.INTER_NEAREST,
+    # Bilinear interpolation
+    2: cv2.INTER_LINEAR,
+    # Area interpolation
+    3: cv2.INTER_AREA
+}
 
 class Proccessing:
 
@@ -136,3 +146,46 @@ class Proccessing:
         for i in range(N):
             out_data.append(data[i] * N)
         return out_data
+
+    @staticmethod
+    def shift_2D(img, C):
+        img += C
+        return img
+
+    @staticmethod
+    def multModel_2D(img, C):
+        for i in range(img.shape[0]):
+            for j in range(img.shape[1]):
+                img[i][j] = np.uint8(img[i][j] * C)
+        return img
+
+    @staticmethod
+    def resize(img, scale, typeInt):
+        return cv2.resize(img, None, fx=scale, fy=scale, interpolation=interpolation[typeInt])
+
+    @staticmethod
+    def negative(img):
+        if img.ndim == 1:
+            img = np.reshape(img, (1024, 1024))
+        for i in range(img.shape[0]):
+            for j in range(img.shape[1]):
+                img[i][j] = 255 - img[i][j]
+        return img
+
+    @staticmethod
+    def gamma_transform(img, C, gamma):
+        if img.ndim == 1:
+            img = np.reshape(img, (1024, 1024))
+        for i in range(img.shape[0]):
+            for j in range(img.shape[1]):
+                img[i][j] = C * pow(img[i][j], gamma)
+        return img
+
+    @staticmethod
+    def log_transform(img, C):
+        if img.ndim == 1:
+            img = np.reshape(img, (1024, 1024))
+        for i in range(img.shape[0]):
+            for j in range(img.shape[1]):
+                img[i][j] = C * math.log(img[i][j] + 1)
+        return img

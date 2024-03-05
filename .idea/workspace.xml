@@ -5,21 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f234230-b976-4149-9b67-341751fb6437" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/TestTestTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestTestTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/2 sem/01_visualisation.jpg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/2 sem/02_visualisation.xcr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/2 sem/03_reshape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/2 sem/04_gradationalTransformations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/07_Fourier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/07_Fourier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/0x_RawDataProccess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/0x_RawDataProccess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/10_antiTrend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/10_antiTrend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/13_datFilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/13_datFilter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/15_Formant.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/15_Formant.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant3.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant4.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/formant4.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/records/patch.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/records/patch.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/01_Trends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/02_Random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/03_Shift.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/04_Statistics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/05_Harm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/06_Hist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/06_ccf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/07_Fourier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/08_addModel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/09_antiShift.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/0x_RawDataProccess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/10_antiTrend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/11_convolModel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/12_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/13_datFilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/14_Emphasis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/15_Formant.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/16_Exam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/lab4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/pgp_dt0005.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/file.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/formant4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/patch.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/record.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/record_based.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/record_out.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/Второй слог/formant1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/Второй слог/formant2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/Второй слог/formant3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/Второй слог/formant4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/Второй слог/patch.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/Первый слог/formant1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/Первый слог/formant2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/Первый слог/formant3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/Первый слог/formant4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/records/Первый слог/patch.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/v34.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/v34.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/in_out.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/in_out.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/proccessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/proccessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course_work/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/course_work/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_work/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +77,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Data_Labs/2 sem" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="07_Fourier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Максим\PycharmProjects\TestTestTest\Data_Labs\2 sem" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.04_gradationalTransformations">
+    <configuration name="02_visualisation.xcr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,11 +94,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/07_Fourier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/02_visualisation.xcr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -67,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="09_antiShift" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_reshape" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,11 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/09_antiShift.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/03_reshape.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="0x_RawDataProccess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_gradationalTransformations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/0x_RawDataProccess.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/04_gradationalTransformations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10_antiTrend" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16_Exam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,11 +157,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/1 sem" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/10_antiTrend.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/1 sem/16_Exam.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="in_out" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,11 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course_work" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course_work/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes/in_out.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.07_Fourier" />
-        <item itemvalue="Python.0x_RawDataProccess" />
-        <item itemvalue="Python.10_antiTrend" />
-        <item itemvalue="Python.09_antiShift" />
+        <item itemvalue="Python.04_gradationalTransformations" />
+        <item itemvalue="Python.02_visualisation.xcr" />
+        <item itemvalue="Python.03_reshape" />
+        <item itemvalue="Python.in_out" />
+        <item itemvalue="Python.16_Exam" />
       </list>
     </recent_temporary>
   </component>
@@ -176,45 +216,53 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2539" height="284" key="GridCell.Tab.0.bottom" timestamp="1705901644016">
+    <state x="1060" y="442" key="FileChooserDialogImpl" timestamp="1709593246305">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644016" />
-    <state width="2539" height="284" key="GridCell.Tab.0.center" timestamp="1705901644015">
+    <state x="1060" y="442" key="FileChooserDialogImpl/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709593246305" />
+    <state width="612" height="896" key="GridCell.Tab.0.bottom" timestamp="1709613709944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644015" />
-    <state width="2539" height="284" key="GridCell.Tab.0.left" timestamp="1705901644015">
+    <state width="612" height="896" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709613709944" />
+    <state width="612" height="896" key="GridCell.Tab.0.center" timestamp="1709613709944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644015" />
-    <state width="2539" height="284" key="GridCell.Tab.0.right" timestamp="1705901644015">
+    <state width="612" height="896" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709613709944" />
+    <state width="612" height="896" key="GridCell.Tab.0.left" timestamp="1709613709944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="284" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644015" />
-    <state width="2539" height="489" key="GridCell.Tab.1.bottom" timestamp="1705901644010">
+    <state width="612" height="896" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709613709944" />
+    <state width="612" height="896" key="GridCell.Tab.0.right" timestamp="1709613709944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="489" key="GridCell.Tab.1.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644010" />
-    <state width="2539" height="489" key="GridCell.Tab.1.center" timestamp="1705901644010">
+    <state width="612" height="896" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709613709944" />
+    <state width="2539" height="234" key="GridCell.Tab.1.bottom" timestamp="1709585950108">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="489" key="GridCell.Tab.1.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644010" />
-    <state width="2539" height="489" key="GridCell.Tab.1.left" timestamp="1705901644010">
+    <state width="2539" height="234" key="GridCell.Tab.1.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709585950108" />
+    <state width="2539" height="234" key="GridCell.Tab.1.center" timestamp="1709585950108">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="489" key="GridCell.Tab.1.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644010" />
-    <state width="2539" height="489" key="GridCell.Tab.1.right" timestamp="1705901644010">
+    <state width="2539" height="234" key="GridCell.Tab.1.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709585950108" />
+    <state width="2539" height="234" key="GridCell.Tab.1.left" timestamp="1709585950108">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="489" key="GridCell.Tab.1.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705901644010" />
+    <state width="2539" height="234" key="GridCell.Tab.1.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709585950108" />
+    <state width="2539" height="234" key="GridCell.Tab.1.right" timestamp="1709585950108">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="234" key="GridCell.Tab.1.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709585950108" />
     <state x="781" y="342" key="SettingsEditor" timestamp="1705881136545">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705881136544" />
-    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1705900643958">
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1709591743542">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705900643958" />
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709591743542" />
+    <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1709579193669">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709579193669" />
   </component>
 </project>
