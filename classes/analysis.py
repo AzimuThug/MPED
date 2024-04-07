@@ -94,16 +94,6 @@ class Analysis:
             out_data.append(Xn[i] * df)
         return out_data
 
-    # def estimation(self, data):
-    #     prev = data[0] or 0.001
-    #     threshold = 0.01
-    #     peaks = []
-    #
-    #     for num, i in enumerate(data[1:], 1):
-    #         if (i - prev) / prev > threshold:
-    #             peaks.append(num)
-    #             print(1)
-    #         prev = i or 0.001
-    #
-    #     print(peaks)
-    #     return peaks
+    @staticmethod
+    def diff(img_1, img_2):
+        return [x - y for x, y in zip(img_1, img_2)]

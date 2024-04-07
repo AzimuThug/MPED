@@ -189,3 +189,17 @@ class Proccessing:
             for j in range(img.shape[1]):
                 img[i][j] = C * math.log(img[i][j] + 1)
         return img
+
+    @staticmethod
+    def gradTransform(data, data2):
+        # y = 1. * np.arange(len(data)) / (len(data) - 1)
+        m = int(data.max())
+
+        count, bins_count = np.histogram(data, bins=256, range=[0,256], density=True)
+        pdf = count / sum(count)
+        cdf = np.cumsum(pdf)
+
+        for i in range(len(data)):
+            data2[i] = m * cdf[data[i]]
+        return data2
+

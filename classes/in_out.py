@@ -56,8 +56,8 @@ class IN_OUT:
         with open(path, 'rb') as file:
             narray = np.fromfile(file, dtype=np.ushort, count=1048576, offset=2048)
         for i in range(narray.size):
-            narray[i] = np.uint8(narray[i])
-        return narray[::-1]
+            narray[i] = np.uint16(narray[i])
+        return narray.byteswap()
 
     @staticmethod
     def writeXCR(path, data):
