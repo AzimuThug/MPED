@@ -203,3 +203,12 @@ class Proccessing:
             data2[i] = m * cdf[data[i]]
         return data2
 
+    @staticmethod
+    def average_filter(image, kernel_size_x=3, kernel_size_y=3):
+        blurred_image = cv2.blur(image, (kernel_size_x, kernel_size_y))
+        return blurred_image
+
+    @staticmethod
+    def median_filter(image, kernel_size=3):
+        filtered_image = cv2.medianBlur(image, kernel_size)
+        return filtered_image

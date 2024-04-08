@@ -97,3 +97,12 @@ class Analysis:
     @staticmethod
     def diff(img_1, img_2):
         return [x - y for x, y in zip(img_1, img_2)]
+
+    @staticmethod
+    def Fourier2D(img):
+        return np.fft.fft2(img)
+
+
+    @staticmethod
+    def inverseFourier(img):
+        pass

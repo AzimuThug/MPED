@@ -51,10 +51,10 @@ class IN_OUT:
 
     # Чтение xcr файлов, возвращает одномерный массив uint8
     @staticmethod
-    def readXCR(path):
-        narray = np.zeros(1048576, dtype='ushort')
+    def readXCR(path, h=1024, w=1024, o=2048):
+        narray = np.zeros(h*w, dtype='ushort')
         with open(path, 'rb') as file:
-            narray = np.fromfile(file, dtype=np.ushort, count=1048576, offset=2048)
+            narray = np.fromfile(file, dtype=np.ushort, count=h*w, offset=o)
         for i in range(narray.size):
             narray[i] = np.uint16(narray[i])
         return narray.byteswap()

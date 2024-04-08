@@ -8,6 +8,8 @@ from classes.model import Model
 
 def main(mode):
 
+    new_analysis = Analysis()
+
     # Пусть к исходному изображению
     name = 'c12-85v_1Kx1K.xcr'
     path = './Media/' + name
@@ -19,7 +21,6 @@ def main(mode):
 
     # Детектор
     if mode == 0:
-        new_analysis = Analysis()
         line_furier = []
         line_diff_furier = []
         line_acf_furier = []
@@ -92,6 +93,16 @@ def main(mode):
         for i in range(0, 256):
             crop_img[i] = new_model.convolModel(crop_img[i], band_stop_filter, N, M)
 
+        # Спектр строки после свертки
+        line_furier = []
+        line_furier = np.fft.fft(crop_img[0])
+        new_X_n = new_analysis.spectrFourier([i for i in range(N)], N, dt)
+
+        # Вывод спектра строки
+        plt.plot(new_X_n, line_furier)
+        plt.show()
+
+        # Вывод изображения после свертки
         plt.imshow(crop_img, cmap='gray')
         plt.show()
 
