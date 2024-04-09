@@ -14,37 +14,45 @@ def main(mode):
     name = 'c12-85v_1Kx1K.xcr'
     path = './Media/' + name
 
+    # Размеры изображения
+    height = 1024
+    width = 1024
+
     # Открыть и повернуть изображение
-    data = IN_OUT.readXCR(path)
-    data = np.reshape(data, (1024, 1024))
+    data = IN_OUT.readXCR(path, height, width)
+    data = np.reshape(data, (height, width))
     data = np.rot90(data, 3)
 
     # Детектор
     if mode == 0:
-        line_furier = []
-        line_diff_furier = []
-        line_acf_furier = []
-        line_ccf_furier = []
-        N = 1024
+        N = height
         dt = 1
+        new_analysis = Analysis()
 
         # Номер строки от 0 до 1024
-        i = 1
+        i = 500
+
         # Строка i спектр исходный
-        line_furier.append(np.fft.fft(data[i]))
+        line_furier = np.fft.fft(data[i], N)
 
         # Строка i спектр производной
         line = data[i].copy()
         line = np.diff(line)
-        line_diff_furier.append(np.fft.fft(line))
+        line = np.append(line, line[-1])
+        line_diff_furier = new_analysis.Fourier(line, N)
 
-        # Строка i спектр АКФ
-        line = new_analysis.acf(data[i], N)
-        line_acf_furier.append(np.fft.fft(line))
+        # Строка i+10 производная
+        line_2 = data[i+10].copy()
+        line_2 = np.diff(line_2)
+        line_2 = np.append(line_2, line_2[-1])
 
-        # Строка i спектр ВКФ
-        line = new_analysis.ccf(data[i], data[i+10], N)
-        line_ccf_furier.append(np.fft.fft(line))
+        # Строка i спектр АКФ производной
+        line_acf = new_analysis.acf(line, N)
+        line_acf_furier = np.fft.fft(line_acf)
+
+        # Строка i спектр ВКФ производной
+        line_ccf = new_analysis.ccf(line, line_2, N)
+        line_ccf_furier = np.fft.fft(line_ccf)
 
         new_X_n = new_analysis.spectrFourier([i for i in range(N)], N, dt)
 
@@ -53,10 +61,10 @@ def main(mode):
         fig.suptitle("Спектры " + name, fontsize=15)
 
         # Спектры
-        ax[0].plot(new_X_n, line_furier[0])
-        ax[1].plot(new_X_n[:-1], line_diff_furier[0])
-        ax[2].plot(new_X_n, line_acf_furier[0])
-        ax[3].plot(new_X_n, line_ccf_furier[0])
+        ax[0].plot(new_X_n, line_furier)
+        ax[1].plot(new_X_n, line_diff_furier)
+        ax[2].plot(new_X_n, line_acf_furier)
+        ax[3].plot(new_X_n, line_ccf_furier)
         ax[0].set_xlim([0, 1 / (dt * 2)])
         ax[1].set_xlim([0, 1 / (dt * 2)])
         ax[2].set_xlim([0, 1 / (dt * 2)])
@@ -64,8 +72,8 @@ def main(mode):
         # Подпись графиков
         ax[0].set_title(f"Спектр исходной {i} строки")
         ax[1].set_title("Спектр производной")
-        ax[2].set_title("Спектр АКФ")
-        ax[3].set_title("Спектр ВКФ")
+        ax[2].set_title("Спектр АКФ производных")
+        ax[3].set_title("Спектр ВКФ производных")
 
         plt.show()
 
@@ -92,9 +100,10 @@ def main(mode):
         # Построчная свертка с режекторным фильтром
         for i in range(0, 256):
             crop_img[i] = new_model.convolModel(crop_img[i], band_stop_filter, N, M)
+            for j in range(m):
+                crop_img[i] = np.concatenate((crop_img[i][1:], crop_img[i][:1]))
 
         # Спектр строки после свертки
-        line_furier = []
         line_furier = np.fft.fft(crop_img[0])
         new_X_n = new_analysis.spectrFourier([i for i in range(N)], N, dt)
 
@@ -107,4 +116,4 @@ def main(mode):
         plt.show()
 
 
-main(1)
+main(0)

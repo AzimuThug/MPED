@@ -29,6 +29,7 @@ def main(mode):
         fft = np.fft.fft(convolution) / np.fft.fft(h)
         ifft = np.fft.ifft(fft)
 
+        # Построение графиков
         fig, ax = plt.subplots(nrows=4, ncols=1)
         fig.suptitle("Обратная фильтрация", fontsize=15)
         ax[0].plot(h)
@@ -43,15 +44,15 @@ def main(mode):
 
     elif mode == 1:
         # Определение разрешения изображения
-        height = 221
-        width = 307
+        height = 185
+        width = 259
 
         # Пусть к исходному изображению
-        name = 'blur307x221D.dat'
+        name = 'blur259x185L.dat'
         path = './Media/lab№9/' + name
 
         # Задающая функция
-        kern_name = 'kern76D.dat'
+        kern_name = 'kern64L.dat'
         kern_path = './Media/lab№9/' + kern_name
 
         # Чтение исходного изображения
@@ -63,9 +64,8 @@ def main(mode):
         shape = (height, width)
         for i in range(kern.size, shape[1]):
             kern = np.append(kern, 0)
-        print(kern)
-        # kern = np.reshape(kern, (221, 307))
 
+        # Построчная фильтрация
         img_blur = img_transform.copy()
         for row in range(height):
             fft = np.fft.fft(img_transform[row]) / np.fft.fft(kern)

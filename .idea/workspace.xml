@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f234230-b976-4149-9b67-341751fb6437" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data_Labs/2 sem/07_noise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/2 sem/08_Fourier2D.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Labs/2 sem/09_blur.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/06_artifactsSuppression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/06_artifactsSuppression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/Tasks/ЛР№5-9/МОЭД-2_лабРабота-5.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/Tasks/ЛР№5-9/МОЭД-2_лабРабота-6.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/Tasks/ЛР№5-9/МОЭД-2_лабРабота-7.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/Tasks/ЛР№5-9/МОЭД-2_лабРабота-8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/09_blur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/09_blur.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/in_out.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/in_out.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/proccessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/proccessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +42,7 @@
       <recent name="C:\Users\Максим\PycharmProjects\TestTestTest\Data_Labs\2 sem" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.09_blur">
+  <component name="RunManager" selected="Python.06_artifactsSuppression">
     <configuration name="06_artifactsSuppression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,48 +56,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/06_artifactsSuppression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="07_noise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestTestTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/07_noise.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="08_Fourier2D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestTestTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/08_Fourier2D.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11_convolModel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10_antiTrend" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +97,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/1 sem/11_convolModel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/1 sem/10_antiTrend.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="12_filter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTestTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/1 sem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/1 sem/12_filter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="13_datFilter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTestTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/1 sem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/1 sem/13_datFilter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.09_blur" />
-        <item itemvalue="Python.08_Fourier2D" />
-        <item itemvalue="Python.11_convolModel" />
-        <item itemvalue="Python.07_noise" />
         <item itemvalue="Python.06_artifactsSuppression" />
+        <item itemvalue="Python.09_blur" />
+        <item itemvalue="Python.10_antiTrend" />
+        <item itemvalue="Python.13_datFilter" />
+        <item itemvalue="Python.12_filter" />
       </list>
     </recent_temporary>
   </component>
@@ -183,49 +177,53 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="442" key="FileChooserDialogImpl/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709593246305" />
-    <state width="2042" height="1086" key="GridCell.Tab.0.bottom" timestamp="1712561389949">
+    <state width="605" height="916" key="GridCell.Tab.0.bottom" timestamp="1712690320398">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2042" height="1086" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712561389949" />
-    <state width="2042" height="1086" key="GridCell.Tab.0.center" timestamp="1712561389949">
+    <state width="605" height="916" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712690320398" />
+    <state width="605" height="916" key="GridCell.Tab.0.center" timestamp="1712690320382">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2042" height="1086" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712561389949" />
-    <state width="2042" height="1086" key="GridCell.Tab.0.left" timestamp="1712561389948">
+    <state width="605" height="916" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712690320382" />
+    <state width="605" height="916" key="GridCell.Tab.0.left" timestamp="1712690320382">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2042" height="1086" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712561389948" />
-    <state width="2042" height="1086" key="GridCell.Tab.0.right" timestamp="1712561389949">
+    <state width="605" height="916" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712690320382" />
+    <state width="605" height="916" key="GridCell.Tab.0.right" timestamp="1712690320398">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2042" height="1086" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712561389949" />
-    <state width="2517" height="234" key="GridCell.Tab.1.bottom" timestamp="1712528292188">
+    <state width="605" height="916" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712690320398" />
+    <state width="1031" height="1009" key="GridCell.Tab.1.bottom" timestamp="1712689859491">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="234" key="GridCell.Tab.1.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712528292188" />
-    <state width="2517" height="234" key="GridCell.Tab.1.center" timestamp="1712528292188">
+    <state width="1031" height="1009" key="GridCell.Tab.1.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712689859491" />
+    <state width="1031" height="1009" key="GridCell.Tab.1.center" timestamp="1712689859491">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="234" key="GridCell.Tab.1.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712528292188" />
-    <state width="2517" height="234" key="GridCell.Tab.1.left" timestamp="1712528292188">
+    <state width="1031" height="1009" key="GridCell.Tab.1.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712689859491" />
+    <state width="1031" height="1009" key="GridCell.Tab.1.left" timestamp="1712689859491">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="234" key="GridCell.Tab.1.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712528292188" />
-    <state width="2517" height="234" key="GridCell.Tab.1.right" timestamp="1712528292188">
+    <state width="1031" height="1009" key="GridCell.Tab.1.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712689859491" />
+    <state width="1031" height="1009" key="GridCell.Tab.1.right" timestamp="1712689859491">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="234" key="GridCell.Tab.1.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712528292188" />
+    <state width="1031" height="1009" key="GridCell.Tab.1.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712689859491" />
     <state x="781" y="342" key="SettingsEditor" timestamp="1705881136545">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705881136544" />
-    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712530454717">
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1712679653893">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712530454717" />
-    <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1709579193669">
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712679653893" />
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712681252365">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709579193669" />
+    <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712681252365" />
+    <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1712683018886">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712683018886" />
   </component>
 </project>

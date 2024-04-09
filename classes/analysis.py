@@ -58,6 +58,14 @@ class Analysis:
             out_data.append(covariance[l] / max_R_xx)
         return out_data
 
+    # def acf(self, x):
+    #     result = np.correlate(x, x, mode='full')
+    #     return result[result.size // 2:]
+    #
+    # def ccf(self, x, y):
+    #     result = np.correlate(x, y, mode='full')
+    #     return result[result.size // 2:]
+
     def ccf(self, dataX, dataY, N):
         avg_x = self.avg(dataX)
         avg_y = self.avg(dataY)

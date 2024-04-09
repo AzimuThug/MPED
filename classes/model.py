@@ -110,7 +110,7 @@ class Model:
         for i in range(N):
             y = 0
             for j in range(M):
-                y += x[i - j] * h[j]
+                y += x[i-j] * h[j]
             out_data.append(y)
         return out_data
 
