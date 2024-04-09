@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f234230-b976-4149-9b67-341751fb6437" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/06_artifactsSuppression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/06_artifactsSuppression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/09_blur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/09_blur.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/in_out.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/in_out.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/model.py" afterDir="false" />
-    </list>
+    <list default="true" id="6f234230-b976-4149-9b67-341751fb6437" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
