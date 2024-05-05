@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f234230-b976-4149-9b67-341751fb6437" name="Default Changelist" comment="" />
+    <list default="true" id="6f234230-b976-4149-9b67-341751fb6437" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/06_artifactsSuppression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/06_artifactsSuppression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/07_noise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/07_noise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/08_Fourier2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/08_Fourier2D.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/09_blur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/09_blur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/Media/u0_2048x2500.xcr" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +42,7 @@
       <recent name="C:\Users\Максим\PycharmProjects\TestTestTest\Data_Labs\2 sem" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.06_artifactsSuppression">
+  <component name="RunManager" selected="Python.10_reshapeFourier">
     <configuration name="06_artifactsSuppression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="12_filter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10_reshapeFourier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/1 sem" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/1 sem/12_filter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/10_reshapeFourier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10_reshapeFourier" />
         <item itemvalue="Python.06_artifactsSuppression" />
         <item itemvalue="Python.09_blur" />
         <item itemvalue="Python.10_antiTrend" />
         <item itemvalue="Python.13_datFilter" />
-        <item itemvalue="Python.12_filter" />
       </list>
     </recent_temporary>
   </component>
@@ -170,46 +177,46 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="442" key="FileChooserDialogImpl/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709593246305" />
-    <state width="605" height="916" key="GridCell.Tab.0.bottom" timestamp="1712690320398">
+    <state width="1022" height="1233" key="GridCell.Tab.0.bottom" timestamp="1714949951945">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="605" height="916" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712690320398" />
-    <state width="605" height="916" key="GridCell.Tab.0.center" timestamp="1712690320382">
+    <state width="1022" height="1233" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714949951945" />
+    <state width="1022" height="1233" key="GridCell.Tab.0.center" timestamp="1714949951945">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="605" height="916" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712690320382" />
-    <state width="605" height="916" key="GridCell.Tab.0.left" timestamp="1712690320382">
+    <state width="1022" height="1233" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714949951945" />
+    <state width="1022" height="1233" key="GridCell.Tab.0.left" timestamp="1714949951945">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="605" height="916" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712690320382" />
-    <state width="605" height="916" key="GridCell.Tab.0.right" timestamp="1712690320398">
+    <state width="1022" height="1233" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714949951945" />
+    <state width="1022" height="1233" key="GridCell.Tab.0.right" timestamp="1714949951945">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="605" height="916" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712690320398" />
-    <state width="1031" height="1009" key="GridCell.Tab.1.bottom" timestamp="1712689859491">
+    <state width="1022" height="1233" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714949951945" />
+    <state width="1031" height="1009" key="GridCell.Tab.1.bottom" timestamp="1714943890899">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1031" height="1009" key="GridCell.Tab.1.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712689859491" />
-    <state width="1031" height="1009" key="GridCell.Tab.1.center" timestamp="1712689859491">
+    <state width="1031" height="1009" key="GridCell.Tab.1.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714943890899" />
+    <state width="1031" height="1009" key="GridCell.Tab.1.center" timestamp="1714943890899">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1031" height="1009" key="GridCell.Tab.1.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712689859491" />
-    <state width="1031" height="1009" key="GridCell.Tab.1.left" timestamp="1712689859491">
+    <state width="1031" height="1009" key="GridCell.Tab.1.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714943890899" />
+    <state width="1031" height="1009" key="GridCell.Tab.1.left" timestamp="1714943890899">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1031" height="1009" key="GridCell.Tab.1.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712689859491" />
-    <state width="1031" height="1009" key="GridCell.Tab.1.right" timestamp="1712689859491">
+    <state width="1031" height="1009" key="GridCell.Tab.1.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714943890899" />
+    <state width="1031" height="1009" key="GridCell.Tab.1.right" timestamp="1714943890899">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1031" height="1009" key="GridCell.Tab.1.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712689859491" />
-    <state x="781" y="342" key="SettingsEditor" timestamp="1705881136545">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="781" y="342" key="SettingsEditor/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1705881136544" />
+    <state width="1031" height="1009" key="GridCell.Tab.1.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714943890899" />
     <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1712679653893">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712679653893" />
+    <state x="797" y="289" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1714949133114">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="797" y="289" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714949133114" />
     <state x="1089" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712681252365">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

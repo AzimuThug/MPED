@@ -1,10 +1,7 @@
 from classes.in_out import IN_OUT
 from classes.proccessing import Proccessing
-from classes.analysis import Analysis
-from classes.model import Model
 import matplotlib.pyplot as plt
 import numpy as np
-import time
 
 
 def main():
