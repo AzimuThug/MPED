@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f234230-b976-4149-9b67-341751fb6437" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data_Labs/2 sem/11_Thresholding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/2 sem/12_improveImg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/2 sem/12_operators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data_Labs/2 sem/13_morphology.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/06_artifactsSuppression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/06_artifactsSuppression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/07_noise.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/07_noise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/08_Fourier2D.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/08_Fourier2D.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/09_blur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/09_blur.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/Media/u0_2048x2500.xcr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Labs/2 sem/10_reshapeFourier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Labs/2 sem/10_reshapeFourier.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,70 +43,7 @@
       <recent name="C:\Users\Максим\PycharmProjects\TestTestTest\Data_Labs\2 sem" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10_reshapeFourier">
-    <configuration name="06_artifactsSuppression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestTestTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/06_artifactsSuppression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="09_blur" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestTestTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/09_blur.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10_antiTrend" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TestTestTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/1 sem" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/1 sem/10_antiTrend.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.12_improveImg">
     <configuration name="10_reshapeFourier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,7 +65,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13_datFilter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="11_Thresholding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TestTestTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +73,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/1 sem" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/1 sem/13_datFilter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/11_Thresholding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="12_improveImg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTestTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/12_improveImg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="12_operators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTestTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/12_operators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="13_morphology" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TestTestTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Labs/2 sem" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Labs/2 sem/13_morphology.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.12_improveImg" />
+        <item itemvalue="Python.13_morphology" />
+        <item itemvalue="Python.12_operators" />
+        <item itemvalue="Python.11_Thresholding" />
         <item itemvalue="Python.10_reshapeFourier" />
-        <item itemvalue="Python.06_artifactsSuppression" />
-        <item itemvalue="Python.09_blur" />
-        <item itemvalue="Python.10_antiTrend" />
-        <item itemvalue="Python.13_datFilter" />
       </list>
     </recent_temporary>
   </component>
@@ -177,22 +178,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="442" key="FileChooserDialogImpl/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1709593246305" />
-    <state width="1022" height="1233" key="GridCell.Tab.0.bottom" timestamp="1714949951945">
+    <state width="856" height="1233" key="GridCell.Tab.0.bottom" timestamp="1714978144844">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1022" height="1233" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714949951945" />
-    <state width="1022" height="1233" key="GridCell.Tab.0.center" timestamp="1714949951945">
+    <state width="856" height="1233" key="GridCell.Tab.0.bottom/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714978144844" />
+    <state width="856" height="1233" key="GridCell.Tab.0.center" timestamp="1714978144844">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1022" height="1233" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714949951945" />
-    <state width="1022" height="1233" key="GridCell.Tab.0.left" timestamp="1714949951945">
+    <state width="856" height="1233" key="GridCell.Tab.0.center/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714978144844" />
+    <state width="856" height="1233" key="GridCell.Tab.0.left" timestamp="1714978144844">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1022" height="1233" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714949951945" />
-    <state width="1022" height="1233" key="GridCell.Tab.0.right" timestamp="1714949951945">
+    <state width="856" height="1233" key="GridCell.Tab.0.left/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714978144844" />
+    <state width="856" height="1233" key="GridCell.Tab.0.right" timestamp="1714978144844">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1022" height="1233" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714949951945" />
+    <state width="856" height="1233" key="GridCell.Tab.0.right/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714978144844" />
     <state width="1031" height="1009" key="GridCell.Tab.1.bottom" timestamp="1714943890899">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -225,5 +226,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1712683018886" />
+    <state x="943" y="315" key="search.everywhere.popup" timestamp="1714967239645">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" key="search.everywhere.popup/2560.0.2048.1120/0.0.2560.1400@0.0.2560.1400" timestamp="1714967239645" />
   </component>
 </project>

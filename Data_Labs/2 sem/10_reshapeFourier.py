@@ -101,4 +101,4 @@ def main(mode):
 
     plt.show()
 
-main(1)
+main(0)

@@ -92,7 +92,6 @@ def main(mode):
         # Построчная свертка с режекторным фильтром
         for i in range(0, 256):
             crop_img[i] = new_model.convolModel(crop_img[i], band_stop_filter, N, M)
-            # for j in range(m):
             crop_img[i] = np.roll(crop_img[i], -m)
 
         # Спектр строки после свертки
