@@ -20,6 +20,7 @@ def main(mode=0):
     if mode == 0:
         # Изменение исходного изображения
         img_change = img_source.copy()  # Присваивание без создания ссылки на объект
+        print(len(img_change.ravel()))
         img_transform = Proccessing.gradTransform(img_change.ravel())
         img_transform = np.reshape(img_transform, (height, width))
 
@@ -92,4 +93,4 @@ def main(mode=0):
     plt.show()
 
 
-main(1)
+main(0)

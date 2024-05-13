@@ -165,11 +165,12 @@ class Proccessing:
 
     @staticmethod
     def negative(img):
+        m = max(img.ravel())
         if img.ndim == 1:
-            img = np.reshape(img, (1024, 1024))
+            img = np.reshape(img, (256, 256))
         for i in range(img.shape[0]):
             for j in range(img.shape[1]):
-                img[i][j] = 255 - img[i][j]
+                img[i][j] = m - img[i][j]
         return img
 
     @staticmethod
@@ -191,11 +192,12 @@ class Proccessing:
         return img
 
     @staticmethod
-    def gradTransform(data, data2):
+    def gradTransform(data):
         # y = 1. * np.arange(len(data)) / (len(data) - 1)
+        data2 = data.copy()
         m = int(data.max())
 
-        count, bins_count = np.histogram(data, bins=256, range=[0,256], density=True)
+        count, bins_count = np.histogram(data, bins=max(data)+1, range=[0,256], density=True)
         pdf = count / sum(count)
         cdf = np.cumsum(pdf)
 
@@ -212,3 +214,22 @@ class Proccessing:
     def median_filter(image, kernel_size=3):
         filtered_image = cv2.medianBlur(image, kernel_size)
         return filtered_image
+
+    @staticmethod
+    def clear(img, threshold):
+        for row in range(img.shape[0]):
+            for col in range(img.shape[1]):
+                if img[row, col] <= threshold:
+                    img[row, col] = 0
+        return img
+
+    @staticmethod
+    def improve(img, kernel, alpha=2.5, beta=-0.5):
+        filtered = cv2.filter2D(img.copy(), -1, kernel)
+        filtered = Proccessing.clear(filtered, 135)
+        img_improve = cv2.addWeighted(
+            img.copy(), alpha, filtered, beta, 0
+        )
+        min_val = np.min(img_improve)
+        max_val = np.max(img_improve)
+        return (img_improve - min_val) / (max_val - min_val), filtered

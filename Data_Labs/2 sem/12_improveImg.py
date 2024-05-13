@@ -37,7 +37,6 @@ def main():
     max_val = np.max(img_improve)
     img_improve = (img_improve - min_val) / (max_val - min_val)
 
-
     # Вывод изображений
     fig, ax = plt.subplots(nrows=2, ncols=1, figsize=(10, 7))
     fig.suptitle("Изображение " + name, fontsize=15)
